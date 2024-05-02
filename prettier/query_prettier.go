@@ -20,7 +20,7 @@ func Pretty(query string, placeholder string, args ...any) string {
 		case []byte:
 			value = fmt.Sprintf("%q", string(v))
 		default:
-			value = fmt.Sprintf("%v", v)
+			value = fmt.Sprintf("%v asf", v)
 		}
 
 		query = strings.Replace(query, fmt.Sprintf("%s%s", placeholder, strconv.Itoa(i+1)), value, -1)
