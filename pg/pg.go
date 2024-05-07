@@ -3,8 +3,9 @@ package pg
 import (
 	"context"
 	"fmt"
-	"github.com/Heavlock/pg_go_pkg/infrastructure/db/prettier"
-	"github.com/Heavlock/pg_go_pkg/internal/infrastructure/db"
+	"github.com/Heavlock/pg_go_pkg/db"
+	"github.com/Heavlock/pg_go_pkg/prettier"
+	"github.com/jackc/pgx/v5"
 	"log"
 
 	"github.com/georgysavva/scany/v2/pgxscan"

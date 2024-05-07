@@ -2,8 +2,9 @@ package transaction
 
 import (
 	"context"
-	"github.com/Heavlock/pg_go_pkg/internal/infrastructure/db"
-	"github.com/Heavlock/pg_go_pkg/internal/infrastructure/db/pg"
+	"github.com/Heavlock/pg_go_pkg/db"
+	"github.com/Heavlock/pg_go_pkg/pg"
+	"github.com/jackc/pgx/v5"
 
 	"github.com/pkg/errors"
 )
