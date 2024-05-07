@@ -2,10 +2,9 @@ package pg
 
 import (
 	"context"
-	"dzen_publisher/internal/infrastructure/db"
-	"dzen_publisher/internal/infrastructure/db/prettier"
 	"fmt"
-	"github.com/jackc/pgx/v5"
+	"github.com/Heavlock/pg_go_pkg/infrastructure/db/prettier"
+	"github.com/Heavlock/pg_go_pkg/internal/infrastructure/db"
 	"log"
 
 	"github.com/georgysavva/scany/v2/pgxscan"
